@@ -1,0 +1,7 @@
+{
+    "json.schemas": [],
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+    "editor.wordWrap": "on"
+}
