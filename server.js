@@ -2,8 +2,12 @@ const express = require("express");
 const connectDb = require("./db");
 
 const app = express();
+
 // connet to database
+
 connectDb();
+// middleware bodyparser
+app.use(express.json({ extennded: false }));
 
 app.get("/", (req, res) => res.send("api is running"));
 

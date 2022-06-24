@@ -4,6 +4,6 @@ const router = express.Router();
 // Get  /route/api/post
 // private
 
-router.use("/", (req, res) => res.send("post route"));
+router.post("/", (req, res) => res.send("Post route"));
 
 module.exports = router;
