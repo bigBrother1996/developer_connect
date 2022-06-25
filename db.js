@@ -1,9 +1,9 @@
 const mongoose = require("mongoose");
 const dotenv = require("dotenv").config();
 // connect mongodb atlas
-// const db = process.env.REMOTE_DB;
+const db = process.env.REMOTE_DB;
 // connect local db
-const db = process.env.LOCAL_DB;
+// const db = process.env.LOCAL_DB;
 
 const connectDb = async () => {
   try {
